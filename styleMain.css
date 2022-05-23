@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@200&family=Dancing+Script:wght@600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Advent Pro', sans-serif;
+    font-size: 1.6rem;
+}
+
+
+header{
+    background: linear-gradient(rgba(0,0,0,0.5), #337043);
+}
+
+li {
+    list-style-type: none;
+}
+
+h2  {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* ************************ navbar ************************** */
+
+nav {
+    overflow: hidden;
+    background-color: #337043;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+
+header li {
+    float: right;
+    font-size: 1.2em;
+}
+
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 1.8rem 1.6rem;
+}
+
+#log img{
+    width: 3.5rem;
+    position: absolute;
+    top: 4%;
+    left: 5%;
+}
+
+/* ****************************************** */
+#imagePrincipale {
+    padding-top: 60px;
+    background: url(images/plant_tomates.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 79.9rem;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 6em;
+    margin-top: 11rem;
+    text-shadow: 3px 3px 2px black;
+}
+
+#premierTrait{
+    width: 40%;
+    height: 0.1rem;
+    margin: -3px auto;
+    background-color: #FFFAE1;
+    box-shadow: 3px 3px 2px black;
+}
+
+h3 {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 3em;
+    text-shadow: 3px 3px 2px black;
+}
+/* ******************************** */
+#monJardin {
+        background-color: #FFFAE1;
+        padding: 1rem 0px 10rem 0;
+}
+
+#texteIntro {
+    font-family: Helvetica, sans-serif;
+    padding: 0px 20%;
+
+}
+
+#prestations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 3rem 10%;
+}
+
+.imagePrestations h4 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 1.5rem;
+    font-weight: 300;
+}
+
+.imagePrestations img {
+    border-radius: 1rem;
+    box-shadow: 5px 8px 5px 4px rgba(0,0,0,0.83);
+}
+
+.imagePrestations img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
+}
+
+/* ************************** legumes ************************** */
+
+#legumes {
+    height: 140rem;
+    background-color: #f1f2f6;
+    padding: 1px 2%;
+    overflow: hidden;
+
+}
+
+#legumes h2{
+    padding-top: 6rem;
+
+}
+
+#tomate{
+    background: url(images/tomate.jpg);
+}
+
+#carotte{
+    background: url(images/carotte.jpg);
+}
+
+#salade{
+    background: url(images/salade.jpg);
+}
+
+#oignons{
+    background: url(images/oignons.jpg);
+}
+
+#legumes li{
+    border-radius: 1rem;
+    margin: 6.5rem 10rem 0 10rem;
+    height: 35rem;
+    width: 55%;
+    max-width: 45rem;
+    float: left;
+    box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
+}
+
+#legumes p{
+    font-weight: bold;
+    border-radius: 1rem;
+    height: 4.5rem;
+    width: 23.5rem;
+    background-color: #01df74;
+    float: right;
+    margin: 5rem -18rem 0 0;
+    text-align: center;
+    padding-top: 1.5rem;
+    box-shadow: 4px 4px 0 1px rgba(90,161,43,1);
+}
+
+#legumes #carotte, #legumes #oignons {
+    float: right;
+}
+
+#carotte p, #oignons p {
+    float: left;
+    background-color: cyan;
+    margin-left: -18rem;
+    box-shadow: -4px 4px 0 1px rgba(15,154,156,1);
+}
+
+/* ************************* fruits ********************** */
+
+#fruits {
+    height: 140rem;
+    background-color: #FFFAE1;
+    padding: 1px 2%;
+    overflow: hidden;
+
+}
+
+#fruits h2{
+    padding-top: 6rem;
+
+}
+
+#banane{
+    background: url(images/banane.jpg);
+}
+
+#orange{
+    background: url(images/orange.jpg);
+}
+
+#pomme{
+    background: url(images/pomme.jpg);
+}
+
+#raisin{
+    background: url(images/raisin.jpg);
+}
+
+#fruits li{
+    font-weight: bold;
+    border-radius: 1rem;
+    margin: 6.5rem 10rem 0 10rem;
+    height: 35rem;
+    width: 55%;
+    max-width: 45rem;
+    float: left;
+    box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
+}
+
+#fruits p{
+    border-radius: 1rem;
+    height: 4.5rem;
+    width: 23.5rem;
+    background-color: #01df74;
+    float: right;
+    margin: 5rem -18rem 0 0;
+    text-align: center;
+    padding-top: 1.5rem;
+    box-shadow: 4px 4px 0 1px rgba(90,161,43,1);
+}
+
+#fruits #orange, #fruits #raisin {
+    float: right;
+}
+
+#orange p, #raisin p {
+    float: left;
+    background-color: cyan;
+    margin-left: -18rem;
+    box-shadow: -4px 4px 0 1px rgba(15,154,156,1);
+}
+
+/* ************* footer ***************** */
+footer{
+    background-color: #524A3A;
+    color: #FFFAE1;
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+}
+
+form{
+    margin: 0 auto;
+    max-width: 90rem;
+}
+
+input, textarea, button {
+    border: none;
+    width: 50%;
+    padding: 1.5rem 1rem;
+    margin: 1px 0;
+    font-size: 1.2em;
+    font-family: 'Advent Pro', sans-serif;
+    border-radius: 8px;   
+}
+
+textarea{
+    height: 12rem;
+}
+
+button {
+    font-size: 1.5em;
+    background-color: #FFFAE1;
+}
+
+button:hover {
+    background-color: #e55039;
+    color: #FFFAE1;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+#deuxiemeTrait {
+    height: 1px;
+    width: 75%;
+    background-color: #FFFAE1;
+    margin: 6rem auto;
+}
+
+#copyrightEticons {
+    display: flex;
+    margin-bottom: 2rem;
+    padding: 0 10%;
+}
+#copyright{
+    width: 50%;
+}
+
+#icons {
+    width: 75%;
+    text-align: right;
+}
+
+#icons a{
+    display: inline-block;
+    padding: 0 1.5rem;
+    font-size: 1.3em;
+    color: #FFFAE1;
+}
+
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s ease-in;
+}
